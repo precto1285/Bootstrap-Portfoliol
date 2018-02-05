@@ -1,3 +1,6 @@
+body {
+    
+}
 .navbar-brand {
     background-color:teal;
     color:white;
@@ -17,4 +20,44 @@
 .nav-item {
     border-left:1.5px solid rgba(0, 0, 0, 0.1);
     
+}
+#About_Me {
+    border:solid;
+    width:740px;
+    padding:8px;
+    margin:10px;
+    float:left;
+}
+#content {
+
+}
+#sidebar {
+    border:solid;
+    width: 305px;
+    padding:6px;
+    margin:10px;
+    float:right;
+}
+#connnect {
+
+}
+#logo {
+
+}
+
+#footer {
+    width:100%;
+    background-color:#777777;
+    text-align:center;
+    padding:auto;
+    border-top:solid;
+    border: width 50px;
+    border-color:red;
+    color:#ffffff;
+    height:40px;
+    clear:both;
+    position:fixed;
+    bottom:0px;
+    
+
 }
