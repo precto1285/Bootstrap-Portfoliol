@@ -18,8 +18,11 @@
 }
 .nav-item {
     border-left:1.5px solid rgba(0, 0, 0, 0.1);
-    
 }
+ul {
+    margin-right:250px;
+}
+
 #About_Me {
     border:solid;
     border-color: #dddddd;
