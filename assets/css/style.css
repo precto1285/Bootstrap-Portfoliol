@@ -34,6 +34,7 @@ ul {
 }
 
 #About_Me {
+    background-color:#ffffff;
     border:solid;
     border-color: #dddddd;
     width:650px;
@@ -48,6 +49,7 @@ body {
     background-image:url("../images/wall4_@2X.png");
 }
 #sidebar {
+    background-color:#ffffff;
     border:solid;
     border-color:#dddddd;
     width: 270px;
