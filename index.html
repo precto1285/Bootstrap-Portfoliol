@@ -1,61 +1,98 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Bootstrap-Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-    </head>
-    
-    <body>
-    
-        <header>
-            <!-- This is a Header -->
-            <nav class="navbar navbar-light bg-light">
-                <span class="navbar-brand mb-0 h1">Philippe Recto</span>
-                
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                      <a class="nav-link active" target="_blank" href="index.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" target="_blank" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" target="_blank" href="contact.html">Contact</a>
-                    </li>
-                  </ul>
+<head>
+    <title>Bootstrap-Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-            </nav>
-        </header>
+</head>
 
-        <main>
-            <div id="About_Me">
-                <div>
-                    <h3>About Me</h3>
-                    <hr>
-                </div>
-                <div id="content">
-                    <img src="" alt="" width="150px">
-                    <p></p>
+<body>
+
+    <header>
+        <!-- This is a Header -->
+        <nav class="navbar navbar-light bg-light">
+            <span class="navbar-brand mb-0 h1">Philippe Recto</span>
+
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" target="_blank" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="contact.html">Contact</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <div id="About_Me">
+            <div>
+                <h3>About Me</h3>
+                <hr>
+            </div>
+            <div id="content">
+
+                <img id="face" src="assets/images/Philippe.jpg" alt="Philippe" width="150px">
+
+                <div id="paragraph">
+                <p>As a Senior Research Associate, I have assisted my manager and am the de-facto manager in his absence. I
+                    am readily adaptable to all aspects of a job and I consistently demonstrate effective leadership skills
+                    and can adapt to any unforeseen circumstances that may arise. My years of experience coupled with my
+                    Master’s Degree in Business Administration has given me the qualifications to meet the expectations of
+                    the position.</p> 
+                    <p>Throughout my career I have been recognized as a team leader by example and by service.
+                    I am an enthusiastic employee with exceptional verbal and writing skills that are essential to building
+                    alliances and to motivate team members in accordance to their strengths and abilities, and the goals
+                    of the organization. I am a problem solver who executes efficient and innovative solutions that will
+                    contribute to the overall success of the district.</p>
                 </div>
             </div>
-            <div id="sidebar">
-                <div id="Connect">
-                    <h3>Connect With Me:</h3>
+        </div>
+        <div id="sidebar">
+
+            <!-- review flexbox -->
+            <!-- card page - header/footer section "text center" -->
+            <div id="Connect">
+                <h3>Connect With Me:</h3>
+            </div>
+            <hr>
+
+            <div class="d-flex flex-row">
+                <div class="p-2">
+                    <a href="http://www.gitub.com" target="_blank">
+                        <img src="assets/images/github.jpg" alt="github">
                 </div>
-                <div id="logo">
-                    <a href="" target="_blank"><img src="" alt="" width=""></a>
-                    <a href="" target="_blank"><img src="" alt="" width=""></a>
-                    <a href="" target="_blank"><img src="" alt="" width=""></a>
+                <div class="p-2">
+                    <a href="http://www.linkedin.com" target="_blank">
+                        <img src="assets/images/Linkedin.jpg" alt="linkedin">
+                </div>
+                <div class="p-2">
+                    <a href="http://www.stackoverflow" target="_blank">
+                        <img src="assets/images/stackoverflow.jpg" alt="stackoverflow">
                 </div>
             </div>
-        </main>
 
-        <footer id=footer>
-            Copyright &copy; Philippe Recto 2018
-        </footer>
-    
-    </body>
+
+            <!-- <div id="logo"> -->
+            <!-- <a href="" target="_blank"><img src="" alt="" width=""></a> -->
+            <!-- <a href="" target="_blank"><img src="" alt="" width=""></a> -->
+            <!-- <a href="" target="_blank"><img src="" alt="" width=""></a> -->
+            <!-- </div> -->
+        </div>
+    </main>
+
+    <footer id=footer>
+        Copyright &copy; Philippe Recto 2018
+    </footer>
+
+</body>
+
 </html>
