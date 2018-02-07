@@ -44,9 +44,8 @@ ul {
     float:left;
     
 }
-#content {
-    background-image:url(assets/images/wall4_@2X.png);
-    display:inline;
+body {
+    background-image:url("../images/wall4_@2X.png");
 }
 #sidebar {
     border:solid;
