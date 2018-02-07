@@ -1,13 +1,23 @@
 
+
 .navbar-brand {
     margin-left:250px;
     background-color: #4aaaa5;
     color:white;
     height:100%;
     line-height:3em;
+    padding-top:15px;
+    padding-left: 50px;
+    padding-right:50px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    
 }
 .navbar-light .navbar-brand {
     color: white;
+    border-bottom:solid;
+    border-color:#cccccc;
+   
+    
 }
 .navbar {
     padding-top:0px;
@@ -27,26 +37,29 @@ ul {
     border:solid;
     border-color: #dddddd;
     width:650px;
-    padding:8px;
+    padding:15px;
     margin-top:20px;
     margin-right:10px;
     margin-left:450px;
     float:left;
+    
 }
 #content {
+    background-image:url(assets/images/wall4_@2X.png);
     display:inline;
 }
 #sidebar {
     border:solid;
     border-color:#dddddd;
     width: 270px;
-    padding:6px;
+    padding:15px;
     margin-top:20px;
     margin-right:450px;
     float:right;
 }
 .subheader {
-    color:#4aaaa5
+    color:#4aaaa5;
+    font-family:'Georgia', Times, Times New Roman, serif;
 }
 #logo {
 
@@ -54,7 +67,7 @@ ul {
 
 #footer {
     width:100%;
-    background-color:#777777;
+    background-color:#666666;
     text-align:center;
     padding:auto;
     border-top:solid;
