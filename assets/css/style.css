@@ -1,8 +1,7 @@
-body {
-    
-}
+
 .navbar-brand {
-    background-color:teal;
+    margin-left:250px;
+    background-color: #4aaaa5;
     color:white;
     height:100%;
     line-height:3em;
@@ -23,11 +22,12 @@ body {
 }
 #About_Me {
     border:solid;
-    width:740px;
+    border-color: #dddddd;
+    width:650px;
     padding:8px;
-    margin-top:10px;
+    margin-top:20px;
     margin-right:10px;
-    margin-left:200px;
+    margin-left:450px;
     float:left;
 }
 #content {
@@ -35,13 +35,15 @@ body {
 }
 #sidebar {
     border:solid;
-    width: 305px;
+    border-color:#dddddd;
+    width: 270px;
     padding:6px;
-    margin-right:200px;
+    margin-top:20px;
+    margin-right:450px;
     float:right;
 }
-#connnect {
-
+.subheader {
+    color:#4aaaa5
 }
 #logo {
 
