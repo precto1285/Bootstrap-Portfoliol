@@ -94,5 +94,11 @@ p {
     width:90%;
 
 }
-
-
+.portTablel {
+    float:left;
+    margin-left:70px;
+}
+.portTabler {
+    float:right;
+    margin-right:70px;
+}
