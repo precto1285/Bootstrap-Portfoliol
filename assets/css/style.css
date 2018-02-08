@@ -94,11 +94,21 @@ p {
     width:90%;
 
 }
+.table-responsive-xl {
+    text-align:center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin:20px;
+}
+
 .portTablel {
+    background-color:#4aaaa5;
+    color:#ffffff;
     float:left;
     margin-left:70px;
 }
 .portTabler {
+    background-color:#4aaaa5;
+    color:#ffffff;
     float:right;
     margin-right:70px;
 }
