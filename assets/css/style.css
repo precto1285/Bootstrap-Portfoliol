@@ -132,3 +132,7 @@ p {
 #icons {
     padding-left:15px;
 }
+
+@media screen {
+    max-width:;
+}
