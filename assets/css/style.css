@@ -6,7 +6,7 @@
     color:white;
     height:100%;
     line-height:3em;
-    padding-top:15px;
+    padding-top:18px;
     padding-left: 50px;
     padding-right:50px;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -110,5 +110,18 @@ p {
     background-color:#4aaaa5;
     color:#ffffff;
     float:right;
-    margin-right:70px;
+    margin-right
+}
+#buttonSubmit {
+    margin-left:123px;
+}
+#email {
+    margin-bottom:20px;
+}
+#message {
+    margin-left:105px;
+    margin-bottom:20px;
+}
+#icons {
+    padding-left:15px;
 }
