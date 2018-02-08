@@ -5,6 +5,8 @@ header {
     border-color:#cccccc;
 }
 .navbar-brand {
+    margin-top:3px;
+    margin-bottom:5px;
     margin-left:250px;
     background-color: #4aaaa5;
     color:white;
