@@ -134,5 +134,5 @@ p {
 }
 
 @media screen {
-    max-width:;
+    max-width:980px 768px 640px;
 }
