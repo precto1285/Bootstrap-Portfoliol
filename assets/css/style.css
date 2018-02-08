@@ -1,5 +1,9 @@
 
-
+header {
+    border-bottom:solid;
+    border-width:5px;
+    border-color:#cccccc;
+}
 .navbar-brand {
     margin-left:250px;
     background-color: #4aaaa5;
@@ -14,8 +18,8 @@
 }
 .navbar-light .navbar-brand {
     color: white;
-    border-bottom:solid;
-    border-color:#cccccc;
+    
+
    
     
 }
@@ -25,6 +29,7 @@
     padding-right: 200px;
     padding-bottom:0px;
     height:5em;
+
 }
 .nav-item {
     border-left:1.5px solid rgba(0, 0, 0, 0.1);
